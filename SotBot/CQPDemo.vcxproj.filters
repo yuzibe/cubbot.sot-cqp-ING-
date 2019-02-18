@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人">
+      <UniqueIdentifier>{e60aa1d2-0be1-431e-878f-ae96a29a1bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\依赖项">
+      <UniqueIdentifier>{4f8a91fa-dd6d-43d7-99ab-e0009e4bd8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\源">
+      <UniqueIdentifier>{6de58bc8-9da8-44d8-b889-3327f6969706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\依赖项\线程基类">
+      <UniqueIdentifier>{2994bc4c-1f76-4b31-85a1-05bdacb75c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\依赖项\SotAPI">
+      <UniqueIdentifier>{6d179929-a6c5-4656-a6b3-b9c6c937b68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\源\组件管理">
+      <UniqueIdentifier>{3c6ea912-1da9-4acd-bf7e-c9dbdf2334dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\源\组件管理\线程组件">
+      <UniqueIdentifier>{186768c9-eec6-4d1c-8cbe-83e4a2cd7cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\源\组件管理\线程组件\群消息处理">
+      <UniqueIdentifier>{439a3251-7dd3-404c-90ca-e674cfe2f17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\源\组件管理\功能组件">
+      <UniqueIdentifier>{767d9689-8f44-4aeb-b2ff-d2eefedda892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\源\组件管理\功能组件\图灵机器人">
+      <UniqueIdentifier>{babc3d19-fcae-4647-b400-b7206db6b802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\依赖项\PyGIL">
+      <UniqueIdentifier>{35505fe8-bb46-4537-bfd4-f130bc8bb6ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\依赖项\SotAPI\对象单元">
+      <UniqueIdentifier>{c47f4f27-9776-442b-9c9a-fab2421e20bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\依赖项\SotAPI\对象单元\Msg">
+      <UniqueIdentifier>{5ac01d9b-348c-4637-808f-4ef92c99ce39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\依赖项\SotAPI\对象单元\Msg\GroupMsg">
+      <UniqueIdentifier>{a280c48d-4cb6-4fd7-be5f-5eaedcc76ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\依赖项\SotAPI\对象单元\Group">
+      <UniqueIdentifier>{859955d5-625d-479b-9c8a-fd2eff012425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\依赖项\SotAPI\对象单元\Member">
+      <UniqueIdentifier>{715d1226-f6aa-457b-9b96-429634acd7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sot 智能聊天机器人\依赖项\SotAPI\对象单元\Log">
+      <UniqueIdentifier>{15b3f083-4d1b-41b8-bedc-6406d3f66189}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cqp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadBase.h">
+      <Filter>Sot 智能聊天机器人\依赖项\线程基类</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Sot 智能聊天机器人\依赖项\SotAPI\对象单元\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="Member.h">
+      <Filter>Sot 智能聊天机器人\依赖项\SotAPI\对象单元\Member</Filter>
+    </ClInclude>
+    <ClInclude Include="Sot.h">
+      <Filter>Sot 智能聊天机器人\依赖项\SotAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupMsgThread.h">
+      <Filter>Sot 智能聊天机器人\源\组件管理\线程组件\群消息处理</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentManage.h">
+      <Filter>Sot 智能聊天机器人\源\组件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Sot 智能聊天机器人\依赖项\SotAPI\对象单元\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="TuLing.h">
+      <Filter>Sot 智能聊天机器人\源\组件管理\功能组件\图灵机器人</Filter>
+    </ClInclude>
+    <ClInclude Include="GIL.h">
+      <Filter>Sot 智能聊天机器人\依赖项\PyGIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Sot 智能聊天机器人\源</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupMsg.h">
+      <Filter>Sot 智能聊天机器人\依赖项\SotAPI\对象单元\Msg\GroupMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupMsg.cpp">
+      <Filter>Sot 智能聊天机器人\依赖项\SotAPI\对象单元\Msg\GroupMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Sot 智能聊天机器人\依赖项\SotAPI\对象单元\Group</Filter>
+    </ClCompile>
+    <ClCompile Include="Member.cpp">
+      <Filter>Sot 智能聊天机器人\依赖项\SotAPI\对象单元\Member</Filter>
+    </ClCompile>
+    <ClCompile Include="Sot.cpp">
+      <Filter>Sot 智能聊天机器人\依赖项\SotAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadBase.cpp">
+      <Filter>Sot 智能聊天机器人\依赖项\线程基类</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupMsgThread.cpp">
+      <Filter>Sot 智能聊天机器人\源\组件管理\线程组件\群消息处理</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentManage.cpp">
+      <Filter>Sot 智能聊天机器人\源\组件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Sot 智能聊天机器人\依赖项\SotAPI\对象单元\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="TuLing.cpp">
+      <Filter>Sot 智能聊天机器人\源\组件管理\功能组件\图灵机器人</Filter>
+    </ClCompile>
+    <ClCompile Include="GIL.cpp">
+      <Filter>Sot 智能聊天机器人\依赖项\PyGIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Sot 智能聊天机器人\源</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="CQP.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="com.example.democ.json" />
+  </ItemGroup>
+</Project>
