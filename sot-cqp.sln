@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "com.example.democ", "CQPdemo\CQPDemo.vcxproj", "{9D36EAFF-6BF0-4BDE-A20C-5BCB92DE79D6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "com.example.democ", "sot-cqp\CQPDemo.vcxproj", "{9D36EAFF-6BF0-4BDE-A20C-5BCB92DE79D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
